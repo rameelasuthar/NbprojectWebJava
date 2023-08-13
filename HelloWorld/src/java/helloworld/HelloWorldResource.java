@@ -78,7 +78,7 @@ public class HelloWorldResource {
     /**
      * PUT method for updating an instance of HelloWorldResource
      * @param content representation for the resource
-     * @return an HTTP response with content of the updated or created resource.
+     * @return an HTTP master branch with content of the updated or created resource.
      */
     @PUT
     @Consumes("text/plain")
